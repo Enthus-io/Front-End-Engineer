@@ -2,7 +2,10 @@
   border: 1px solid red;
 }
 
-/* type selector */
+/*
+type selector 
+<p>Best of luck!</p>
+*/
 p {
   color: green;
 }
@@ -11,7 +14,10 @@ h1 {
   color: maroon;
 }
 
-/* class selector */
+/*
+class selector 
+h1 class='title uppercase'>Top Vacation Spots</h1>
+*/
 .title {
   color: teal;
 }
@@ -20,12 +26,18 @@ h1 {
   text-transform: uppercase;
 }
 
-/* id selector */
+/*
+id selector
+<h1 id="article-title">Top Vacation Spots</h1>
+*/
 #article-title {
   font-family: cursive;
 }
 
-/* attribute selector */
+/* 
+attribute selector 
+<a href='https://www.nationalgeographic.com/travel/destination/florence'>Learn More</a>.
+*/
 a[href*='florence'] {
   color: lightgreen;
 }
@@ -38,23 +50,39 @@ a[href*='seoul'] {
   color: lightpink;
 }
 
-/* Pseudo-class selector */
+/*
+Pseudo-class selector 
+<a href='https://www.nationalgeographic.com/travel/destination/seoul'>Learn More</a>
+*/
 a:hover {
   color:darkorange;
 }
 
-/* Chaining selector */ 
+/* 
+Chaining selector 
+ <h2 class='destination'>2. Beijing, China</h2>
+ */ 
 h2.destination {
   font-family: Tahoma;
 }
 
-/* descendant combinator */
+/* 
+descendant combinator 
+<div class='description'>
+  <h5>Top Attractions</h5>
+  <ul>
+    <li>Museums</li>
+    <li>Bike Tours</li>
+    <li>Historical Monuments</li>
+  </ul>
+</div>
+*/
 .description h5 {
   color: blueviolet;
 }
 
 /* Multiple Selectors
-   Combining duplicate rulesets */
+   Combining identical rulesets */
 h5, li {
   font-family: monospace;
 }  
