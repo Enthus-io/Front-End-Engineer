@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cheatsheet</title>
+    <link rel='stylesheet' href="style.css">
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <h2>
+        Cheatsheet
+    </h2>
+
+    <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Syntax</th>
+            <th>Example of HTML Being Styled</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="white">Type Selectors</td>
+              <td><c class="lightorange">p</c> {<br>
+                  <c class="lightblue foursp">style properties</c><br>
+                  }</td>
+                  <td><c class="blue">&lt;p&gt;</c>When determining which rule to apply, the selector with the highest specificity wins out.<c class="blue">&lt;/p&gt;</c></td>
+            </tr>
+            <tr>
+              <td class="white">Class Selectors</td>
+              <td><c class="lightorange">.class-name</c> {<br>
+                  <c class="lightblue foursp">style properties</c><br>
+                  }</td>
+                  <td><c class="blue">&lt;p </c><c class="lightblue">class</c> = <c class="orange">"class-name"</c><c class="blue">&gt;</c>Class selectors are denoted with a period . followed by the class name.<c class="blue">&lt;/p&gt;</c></td>
+            </tr>
+            <tr>
+                <td class="white">ID Selectors</td>
+                <td><c class="lightorange">#id-name</c> {<br>
+                    <c class="lightblue foursp">style properties</c><br>
+                    }</td>
+                    <td><c class="blue">&lt;p </c><c class="lightblue">id</c> = <c class="orange">"id-name"</c><c class="blue">&gt;</c>ID selector matches elements based on the contents of their id attribute.<c class="blue">&lt;/p&gt;</c></td>
+              </tr>
+              <td class="white">Attribute Selectors</td>
+              <td><c class="lightorange">a</c>[<c class="lightblue">href</c>*=<c class="orange">'florence'</c>] {<br>
+                  <c class="lightblue foursp">style properties</c><br>
+                  }</td>
+                  <td><c class="blue">&lt;a </c><c class="lightblue">href</c> = <c class="orange">"https://www.nationalgeographic.com/travel/destination/florence"</c><c class="blue">&gt;</c>Click Here<c class="blue">&lt;/a&gt;</c></td>
+            </tr>
+            <td class="white">Pseudo-class Selectors</td>
+            <td><c class="lightorange">a:hover</c> {<br>
+                <c class="lightblue foursp">style properties</c><br>
+                }</td>
+                <td><c class="blue">&lt;a </c><c class="lightblue">href</c> = <c class="orange">"https://www.nationalgeographic.com/travel/destination/florence"</c><c class="blue">&gt;</c>Click Here<c class="blue">&lt;/a&gt;</c></td>
+          </tr>
+          <tr>
+            <td class="white">Chaining Selectors</td>
+            <td><c class="lightorange">p.class-name</c> {<br>
+                <c class="lightblue foursp">style properties</c><br>
+                }</td>
+                <td><c class="blue">&lt;p </c><c class="lightblue">class</c> = <c class="orange">"class-name"</c><c class="blue">&gt;</c>Selectors can be chained so that rule sets apply only to elements that match all criteria.<c class="blue">&lt;/p&gt;</c></td>
+          </tr>
+          <tr>
+            <td class="white">Descendant Selectors</td>
+            <td><c class="lightorange">.description p</c> {<br>
+                <c class="lightblue foursp">style properties</c><br>
+                }</td>
+                <td>
+                    <c class="blue">&lt;div </c><c class="lightblue">class</c> = <c class="orange">"description"</c><c class="blue">&gt;</c><br>
+                    <c class="blue foursp">&lt;p&gt;</c>Descendant selector is used to match elements that are descended from another matched selector.<br><c class="foursp">They are denoted by a single space between each selector and the descended selector.</c><c class="blue">&lt;/p&gt;</c><br>
+                    <c class="blue">&lt;div&gt;</c>
+                </td>
+          </tr>
+          <tr>
+            <td class="white">Grouping Multiple Selectors</td>
+            <td><c class="lightorange">h2<c class="white">, </c> p</c> {<br>
+                <c class="lightblue foursp">style properties</c><br>
+                }</td>
+                <td>
+                    <c class="blue">&lt;h2&gt;</c>Groups of CSS Selectors<c class="blue">&lt;/h2&gt;</c>><br>
+                    <c class="blue">&lt;p&gt;</c>Match multiple selectors to the same CSS rule, using a comma-separated list.<c class="blue">&lt;/p&gt;</c>
+                </td>
+          </tr>
+        </tbody>
+       </table>
+    
+</body>
+</html>

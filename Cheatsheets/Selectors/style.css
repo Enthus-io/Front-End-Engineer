@@ -1,0 +1,58 @@
+* {
+    color: hsl(0, 0%, 70%);
+    background-color: hsl(0, 0%, 13%);
+    text-align: center;
+}
+
+td , th{
+  vertical-align: top;
+  text-align: left;
+  padding-top: 7px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+}
+
+th{
+  vertical-align: top;
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table, th, td {
+    border: 1px solid hsl(0, 0%, 27%);
+  }
+
+  .orange{
+      color: hsl(17, 100%, 78%);
+  }
+
+  .lightorange{
+    color: hsl(17, 100%, 84%);
+  }
+
+  .lightblue{
+      color: hsl(195, 53%, 79%);
+  }
+
+  .blue{
+      color: hsl(214, 94%, 69%);
+  }
+  .white {
+    color: hsl(0, 0%, 100%);
+}
+.foursp{
+    padding-left: 16px;
+}
+.eightsp{
+    padding-left: 42px;
+}
+  
+  #name{
+
+  }
