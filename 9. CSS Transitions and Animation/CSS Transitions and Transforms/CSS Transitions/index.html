@@ -1,0 +1,65 @@
+<!-- 
+These changes are a type of state change. CSS transitions allow us to control the timing of visual state changes. We can control the following four aspects of an element’s transition:
+
+Which CSS properties transition
+transition-property: color;
+    Transition-property declares which CSS property will be transitioning, the text color.
+How long a transition lasts
+transition-duration: 1s;
+    Transition-duration, declares how long the transition will take — one second.
+
+How much time there is before a transition begins
+transition-timing-function: ease-out;
+    The next transition property is transition-timing-function. The timing function describes the pace of the transition. The default value is ease.
+    ease-in — starts slow, accelerates quickly, stops abruptly
+    ease-out — begins abruptly, slows down, and ends slowly
+    ease-in-out — starts slow, gets fast in the middle, and ends slowly
+    linear — constant speed throughout
+How a transition accelerates
+transition-delay: 250ms;
+    transition-delay. Much like duration, its value is an amount of time. Delay specifies the time to wait before starting the transition.
+    As with the duration property, the default value for transition-delay is 0s, which means no delay.
+  
+Shorthand
+transition: color 1.5s linear 0.5s;
+    CSS provides a property that can be used to declare them all in one line: transition. This shorthand property describes each aspect of the transition
+    puzzle in a single declaration. The properties must be specified in this order:
+        transition-property, transition-duration, transition-timing-function, transition-delay.
+  
+Combinations
+transition: color 1s linear, font-size 750ms ease-in 100ms;
+    you can describe unique transitions for multiple properties, and combine them. To combine transitions, add a comma (,) before the semicolon (;) in your rule.
+
+All
+transition: all 1.5s linear 0.5s;
+    It is common to use the same duration, timing function, and delay for multiple properties. When this is the case you can set the transition-property value to all. 
+    -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animation Duration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#">Join Now!</a>
+
+  
+  <a class="fancy button" style="color: white" href="#" role="button">
+    <span>DOWNLOAD</span>
+      <i class="fa fa-arrow-down"></i>
+    </div>
+  </a>
+  
+  <h1>Find The Gazelle</h1>
+
+  <p>Find the gazelle and move your mouse over it to win!</p>
+
+  <div class="game">
+    <img class="gazelle" src="	https://content.codecademy.com/courses/freelance-1/unit-6/gazelle.png" alt="gazelle">
+    <img class="safari" src="	https://content.codecademy.com/courses/freelance-1/unit-6/safari.jpg" alt="safari">
+  </div>
+</body>
+</html>
