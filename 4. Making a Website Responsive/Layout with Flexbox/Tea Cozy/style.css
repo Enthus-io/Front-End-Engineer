@@ -1,0 +1,132 @@
+/* Universal Styles */
+* {
+  color: white;
+}
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+#logo {
+  background-image: url("res/img-tea-cozy-logo.png");
+  width: 157px;
+  height: 50px;
+  margin: 9.5px 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#links {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0 10px;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("res/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 50px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tagline {
+  background-color: black;
+  width: 1200px;
+}
+
+.center {
+ text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#month {
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+#gallery {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#pic {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.reset-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("res/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 50px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
+}
+
+#info {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  margin: 20px;
+}

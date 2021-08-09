@@ -1,0 +1,26 @@
+DOCUMENTATION AND RESEARCH
+Documentation
+Every well-developed language or framework has a place where you can look up all of its features.
+This library of information is called a language’s documentation.
+
+You can find the documentation for CSS at Mozilla Developer Network. In addition to CSS,
+The Mozilla Developer Network (referred to as MDN) contains the complete documentation for
+HTML, JavaScript, and many other essential tools of web development.
+
+
+Google
+Documentation is an essential tool to learn about properties. However, what if you don’t even know what property you need?
+
+In situations like this, it might come as no surprise that using Google is a great way to read other developers’ solutions to problems.
+Googling the problem you’re trying to solve and the language you’re using will yield many useful answers.
+
+
+DOCUMENTATION AND RESEARCH
+Stack Overflow
+While using Google in the previous exercise, you may have noticed a lot of links to a site called Stack Overflow.
+
+Stack Overflow is a useful resource where developers ask and answer questions. You should use it to find answers to your questions,
+and learn from experienced developers.
+
+Reading all of the top-voted answers to a Stack Overflow question can give you multiple solutions to try as well as an understanding
+of why one solution might be better than another. Additionally, if you can’t find a question, you can even ask it yourself and receive answers.
