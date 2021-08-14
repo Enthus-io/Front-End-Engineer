@@ -1,0 +1,18 @@
+GRIDS AND SPACING
+Review
+
+Remember, the reasons we design using grids are:
+
+Promote consistency within our designs
+Properly align elements on our page
+Provide ample spacing between content
+Remember a grid is made up of:
+
+*Columns *Gutters *Margins
+
+Spacing is incredibly important within a design to ensure:
+
+Elements have ample room to breath
+Denote emphasis on certain parts of a page
+Promote harmonious patterns and rhythms within your designs
+By following these guidelines, it will allow you to create elegant and usable sites!
